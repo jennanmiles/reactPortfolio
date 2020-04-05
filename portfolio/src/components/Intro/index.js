@@ -1,11 +1,12 @@
 import React from "react";
 import './style.css';
 import FontAwesome from 'react-fontawesome';
+import headshot from './pic.jpg';
 
 function Intro() {
     return (
         <div id="about" className="contentWrapper firstOne">
-            <img alt="headshot" className="myPhoto" src="/pic.jpg" />
+            <img alt="headshot" className="myPhoto" src={headshot} />
             <h1>Hey there!<br /> My name is <span>Jenna</span></h1>
             
             <p>I am a web developer at a travel marketing firm in Tucson. I graduated from the University of Arizona with a BFA in graphic design in 2012. After 5 years in the industry, I fell in love with coding switched careers. I began as a front-end web developer and continue to grow my skillset with hopes of becoming full-stack.</p>
