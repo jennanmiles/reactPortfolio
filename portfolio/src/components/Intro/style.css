@@ -1,0 +1,84 @@
+.contentWrapper {
+    position: relative;
+    padding: 5% 2%;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .contentWrapper.firstOne {
+    margin-top: 100px;
+  }
+  .contentWrapper h1 {
+    color: #a99478;
+    background-color: white;
+    font-size: 3.25em;
+    padding: 0.5em;
+    margin: 0 auto 0 -70px;
+    position: absolute;
+    top: 30%;
+    font-family: "DM Serif Text", serif;
+    letter-spacing: 2px;
+    line-height: 1em;
+    text-align: left;
+    font-weight: 300;
+    width: 45%;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  .contentWrapper h1 span {
+    color: black;
+  }
+  .contentWrapper h2 {
+    font-size: 3em;
+    text-align: center;
+    font-family: "DM Serif Text", serif;
+    letter-spacing: 2px;
+  }
+  .contentWrapper .myPhoto {
+    width: 55%;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    border: 15px solid white;
+    box-sizing: border-box;
+    margin-bottom: 2em;
+  }
+  .contentWrapper .myPhoto img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .contentWrapper p {
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    line-height: 1.75em;
+    padding: 0;
+    margin: 1em auto;
+  }
+
+  .contentWrapper .iconWrapper {
+    width: 55%;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 30px auto 0 auto;
+    justify-content: center;
+  }
+  .contentWrapper .iconWrapper .fab, .contentWrapper .iconWrapper .fas {
+    font-size: 2em;
+    color: black;
+    margin: 0 15px;
+  } 
+
+  @media only screen and (max-width: 768px) {
+    .contentWrapper h1 {
+        position: relative;
+        display: block;
+        width: 80%;
+        margin: -90px auto 0 auto;
+        font-size: 2em;
+      }
+      .contentWrapper .myPhoto {
+        width: 100%;
+        display: block;
+      }
+    }

@@ -1,0 +1,65 @@
+.contentWrapper .skillWrapper {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 30px 0;
+  }
+  .contentWrapper .skillWrapper .skillRow {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 20px 0;
+  }
+  .contentWrapper .skillWrapper .skillRow .title {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    color: black;
+    width: 15%;
+    text-align: right;
+    margin-right: 20px;
+  }
+  .contentWrapper .skillWrapper .skillRow .meter {
+    width: 85%;
+    background-color: white;
+    height: 20px;
+  }
+  .contentWrapper .skillWrapper .skillRow .meter span {
+    display: block;
+    height: 100%;
+  }
+  .contentWrapper .skillWrapper .skillRow .meter span.mocha {
+    background-color: #a99478;
+  }
+  .contentWrapper .skillWrapper .skillRow .meter span.tea {
+    background-color: #ccb89d70;
+  }
+  .contentWrapper .skillWrapper .skillRow .meter span.gray {
+    background-color: #808184;
+  }
+  .contentWrapper .skillWrapper .skillRow .meter span.teal {
+    background-color: #5f9ca2;
+  }
+  .contentWrapper .skillWrapper .skillRow .meter span.mauve {
+    background-color: #9a728a;
+  }
+  .contentWrapper .skillWrapper .skillRow .meter span.ruby {
+    background-color: #b57373;
+  }
+  .contentWrapper .skillWrapper .skillRow .meter span.green {
+    background-color: #859e64;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .contentWrapper .skillWrapper .skillRow {
+        flex-wrap: wrap;
+        margin: 10px 0;
+      }
+      .contentWrapper .skillWrapper .skillRow .title {
+        width: 100%;
+        text-align: left;
+        margin: 10px 0 5px 0;
+      }
+      .contentWrapper .skillWrapper .skillRow .meter {
+        width: 100%;
+      }
+} 

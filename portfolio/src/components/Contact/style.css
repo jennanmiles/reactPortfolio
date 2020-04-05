@@ -1,0 +1,41 @@
+.contentWrapper form input, .contentWrapper form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin: 10px auto;
+    font-size: 1em;
+  }
+  .contentWrapper form input:focus, .contentWrapper form textarea:focus {
+    outline: none;
+    border: 2px solid #ccc;
+  }
+  .contentWrapper form .formLabels {
+    font-size: 1.25em;
+    margin: 1em auto 0 0;
+  }
+  .contentWrapper form button {
+    background-color: #859e64;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px auto;
+    position: relative;
+    font-size: 1em;
+    border: 2px solid #f6f6f3;
+  }
+  .contentWrapper form button:focus {
+    outline: none;
+  }
+  .contentWrapper form button:hover, .contentWrapper form button:visited, .contentWrapper form button:active {
+    border: 2px solid #ccc;
+    background-color: #a99478;
+    color: white;
+  }
+  
+  @media only screen and (max-width: 768px) {
+
+  } 

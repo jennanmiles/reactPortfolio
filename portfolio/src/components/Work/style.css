@@ -1,0 +1,35 @@
+.contentWrapper .portfolioWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px auto;
+  }
+  .contentWrapper .portfolioWrapper .portfolioPiece {
+    width: calc(100% / 3 - 4%);
+    height: 250px;
+    margin: 2%;
+    background-color: #ccb89d70;
+    text-decoration: none;
+  }
+  .contentWrapper .portfolioWrapper .portfolioPiece:active, .contentWrapper .portfolioWrapper .portfolioPiece:hover {
+    background-color: #859e64;
+  }
+  .contentWrapper .portfolioWrapper .portfolioPiece .portText {
+    font-family: "DM Serif Text", serif;
+    color: white;
+    font-size: 1.25em;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    word-break: break-word;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+
+  @media only screen and (max-width: 768px) { 
+    .contentWrapper .portfolioWrapper .portfolioPiece {
+        width: 100%;
+      }     
+  }
